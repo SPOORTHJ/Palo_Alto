@@ -1,0 +1,165 @@
+[
+  {
+    "id": "demo0001",
+    "category": "Scam/Fraud",
+    "severity": "High",
+    "summary": "Beware of HDFC refund scam calls in Whitefield, asking for OTP, which can lead to financial loss.",
+    "action_steps": [
+      "Do not share OTP with unknown callers",
+      "Verify HDFC calls through official numbers",
+      "Report suspicious calls to local authorities"
+    ],
+    "target_audience": ["Seniors"],
+    "reasoning": "Report mentions a specific incident with a named bank, method, location, and documented financial loss. High credibility.",
+    "is_noise": false,
+    "confidence": 0.9,
+    "timestamp": "2026-03-19T08:15:00.000000+00:00",
+    "source_text": "Watch out for Refund Scam calls in Whitefield! Caller pretends to be HDFC, asks for OTP. My neighbour lost 40,000 rupees yesterday. Please warn seniors."
+  },
+  {
+    "id": "demo0002",
+    "category": "Theft",
+    "severity": "High",
+    "summary": "Two-wheeler stolen from Brookfield Signal parking area during early morning hours.",
+    "action_steps": [
+      "Check building CCTV footage between 1am and 3am",
+      "File FIR at Whitefield Police Station",
+      "Avoid parking vehicles in unlit areas overnight"
+    ],
+    "target_audience": ["All Residents", "Vehicle Owners"],
+    "reasoning": "Specific time, location, and vehicle details provided. FIR already filed, indicating a verified incident.",
+    "is_noise": false,
+    "confidence": 0.88,
+    "timestamp": "2026-03-19T09:30:00.000000+00:00",
+    "source_text": "Two-wheeler theft near Brookfield Signal at 2am last night. Dark Honda Activa, no helmet. Filing FIR at Whitefield PS. Check your building CCTV."
+  },
+  {
+    "id": "demo0003",
+    "category": "Suspicious Activity",
+    "severity": "Medium",
+    "summary": "Unknown individual photographing vehicles in residential parking lot on multiple evenings.",
+    "action_steps": [
+      "Note the person's description and timing if seen again",
+      "Inform building security immediately",
+      "Do not confront the individual directly"
+    ],
+    "target_audience": ["All Residents", "Building Security"],
+    "reasoning": "Recurring suspicious behaviour reported over multiple evenings. No confirmed crime yet but warrants community awareness.",
+    "is_noise": false,
+    "confidence": 0.75,
+    "timestamp": "2026-03-19T10:00:00.000000+00:00",
+    "source_text": "Unfamiliar person has been photographing cars in our parking lot for the past two evenings around 7pm. Wearing a blue jacket. Security seems unaware."
+  },
+  {
+    "id": "demo0004",
+    "category": "Scam/Fraud",
+    "severity": "High",
+    "summary": "Phishing SMS impersonating BESCOM circulating among residents requesting account updates.",
+    "action_steps": [
+      "Do not click any links in the SMS",
+      "Report the number to TRAI at 1909",
+      "Verify any BESCOM communication through their official website"
+    ],
+    "target_audience": ["All Residents"],
+    "reasoning": "Known phishing pattern impersonating a utility provider. Multiple residents received the same SMS, indicating an organised campaign.",
+    "is_noise": false,
+    "confidence": 0.85,
+    "timestamp": "2026-03-19T11:00:00.000000+00:00",
+    "source_text": "Phishing SMS going around impersonating BESCOM asking for account update. Three residents in our building received it. Do not click the link."
+  },
+  {
+    "id": "demo0005",
+    "category": "Infrastructure",
+    "severity": "Critical",
+    "summary": "Active fire reported on third floor of Prestige Tower with residents potentially trapped.",
+    "action_steps": [
+      "Call 101 (Fire) immediately if not already done",
+      "Evacuate via staircases — do not use lifts",
+      "Assemble at the designated muster point",
+      "Do not re-enter the building"
+    ],
+    "target_audience": ["All Residents", "Building Management"],
+    "reasoning": "Active emergency with potential for physical harm. Immediate action required. Classified Critical due to ongoing nature of the incident.",
+    "is_noise": false,
+    "confidence": 0.95,
+    "timestamp": "2026-03-19T12:00:00.000000+00:00",
+    "source_text": "There is a fire on the 3rd floor of Prestige Tower right now. Smoke coming from flat 302. People may be trapped. Fire brigade called but not arrived yet."
+  },
+  {
+    "id": "demo0006",
+    "category": "Noise/Nuisance",
+    "severity": "Low",
+    "summary": "Personal complaint about a neighbour playing loud music — no community safety concern identified.",
+    "action_steps": [],
+    "target_audience": [],
+    "reasoning": "This is a personal dispute between residents. No safety threat to the broader community. Classified as noise.",
+    "is_noise": true,
+    "confidence": 0.92,
+    "timestamp": "2026-03-19T13:00:00.000000+00:00",
+    "source_text": "The uncle in flat 304 plays loud music every single night until 1am. Management does nothing. I pay 40k rent for this! Someone do something!!"
+  },
+  {
+    "id": "demo0007",
+    "category": "Scam/Fraud",
+    "severity": "Low",
+    "summary": "Vague and unverifiable report of a possible scam with no supporting details.",
+    "action_steps": [],
+    "target_audience": [],
+    "reasoning": "No specific details, location, victim, or incident. Entirely speculative language used throughout. Cannot be acted upon.",
+    "is_noise": false,
+    "confidence": 0.35,
+    "timestamp": "2026-03-19T14:00:00.000000+00:00",
+    "source_text": "I think I heard something weird outside last night, maybe a scam or someone suspicious? Not sure, could be wind. Be careful I guess?"
+  },
+  {
+    "id": "demo0008",
+    "category": "Health",
+    "severity": "Medium",
+    "summary": "Stagnant water reported near Block D creating potential dengue breeding ground.",
+    "action_steps": [
+      "Report to BBMP sanitation helpline: 1533",
+      "Avoid the area if possible",
+      "Check for stagnant water in flower pots and overhead tanks in your flat"
+    ],
+    "target_audience": ["All Residents", "Building Management"],
+    "reasoning": "Stagnant water is a known dengue vector. Specific location provided. Actionable by both residents and civic authorities.",
+    "is_noise": false,
+    "confidence": 0.78,
+    "timestamp": "2026-03-19T15:00:00.000000+00:00",
+    "source_text": "There is stagnant water collecting near the drain behind Block D for over a week now. Mosquitoes are breeding there. Someone needs to report this to BBMP."
+  },
+  {
+    "id": "demo0009",
+    "category": "Suspicious Activity",
+    "severity": "Medium",
+    "summary": "Individual posing as electricity department employee visiting homes without valid ID.",
+    "action_steps": [
+      "Do not allow entry without verified ID",
+      "Call BESCOM on 1912 to confirm if any visits are scheduled",
+      "Inform building security of the description"
+    ],
+    "target_audience": ["All Residents"],
+    "reasoning": "Common pretext used for theft or scoping properties. Specific building and behaviour described. Warrants community alert.",
+    "is_noise": false,
+    "confidence": 0.72,
+    "timestamp": "2026-03-19T16:00:00.000000+00:00",
+    "source_text": "Someone knocked on multiple doors in Block C claiming to be from the electricity department without showing an ID card. Looked suspicious."
+  },
+  {
+    "id": "demo0010",
+    "category": "Infrastructure",
+    "severity": "Low",
+    "summary": "Street lights on stretch between Metro station and residential gate non-functional for one week.",
+    "action_steps": [
+      "Use the well-lit parallel road after dark as an alternative",
+      "Report to BBMP via the Sahaaya app or call 1533",
+      "Walk in groups at night until resolved"
+    ],
+    "target_audience": ["All Residents", "Commuters"],
+    "reasoning": "Infrastructure issue with a safety dimension for pedestrians at night. Not an immediate threat but warrants advisory.",
+    "is_noise": false,
+    "confidence": 0.7,
+    "timestamp": "2026-03-19T17:00:00.000000+00:00",
+    "source_text": "Street lights on the stretch between the Metro station and our gate have been out for a week. Very dark at night. Please report to BBMP."
+  }
+]
