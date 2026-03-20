@@ -1,0 +1,21 @@
+[
+  {
+    "id": "4aeb05b2",
+    "category": "Scam/Fraud",
+    "severity": "Critical",
+    "summary": "Refund Scam calls in Whitefield, caller pretends to be HDFC and asks for OTP, resulting in financial loss.",
+    "action_steps": [
+      "Be cautious of unsolicited calls claiming to be from HDFC",
+      "Never share OTP or sensitive info over phone",
+      "Verify authenticity before responding"
+    ],
+    "target_audience": [
+      "Seniors"
+    ],
+    "reasoning": "This scam has already resulted in a significant financial loss for a neighbour, highlighting the urgency of warning seniors.",
+    "is_noise": false,
+    "confidence": 0.9,
+    "timestamp": "2026-03-19T17:47:11.345383+00:00",
+    "source_text": "Watch out for Refund Scam calls in Whitefield! Caller pretends to be HDFC, asks for OTP. My neighbour lost 40,000 rupees yesterday. Please warn seniors."
+  }
+]
